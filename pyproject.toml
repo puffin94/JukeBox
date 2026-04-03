@@ -1,0 +1,10 @@
+[project]
+name = "jukebox"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "python-dotenv>=1.2.2",
+    "rpi-gpio>=0.7.1 ; sys_platform == 'linux'",
+    "spotipy>=2.26.0",
+    "tinydb>=4.8.2",
+]
